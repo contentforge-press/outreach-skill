@@ -1,0 +1,46 @@
+{
+  "name": "outreach-skill",
+  "version": "0.1.0",
+  "description": "Free open-source CLI for outbound outreach skill packs \u2014 bilingual starter templates for founders shipping SaaS and indie products.",
+  "license": "MIT",
+  "bin": {
+    "outreach": "./dist/src/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "packs",
+    "COMMERCIAL.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/src/cli.js",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "outreach",
+    "outbound",
+    "cold-email",
+    "saas",
+    "cli",
+    "skill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentforge-press/outreach-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contentforge-press/outreach-skill/issues"
+  },
+  "homepage": "https://github.com/contentforge-press/outreach-skill#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}

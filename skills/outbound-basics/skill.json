@@ -1,0 +1,7 @@
+{
+  "id": "outbound-basics",
+  "title": "Outbound Basics (EN + ZH)",
+  "version": "0.1.0",
+  "locale": ["en", "zh-CN"],
+  "description": "Bilingual cold-outreach starter: subject lines, first-touch email, and a short follow-up for SaaS / indie founders."
+}
